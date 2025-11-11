@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #a18cd1;
+  --secondary-color: #764ba2;
+  --gradient: linear-gradient(135deg, #a18cd1 0%, #764ba2 100%);
+  --font-color: #262424;
+  --background-color: #ffff;
+  --font-primary: Poppins, "Poppins Placeholder", sans-serif;
+}
