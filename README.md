@@ -80,7 +80,7 @@ Abra no Explorer / Finder / ou arraste para o navegador
 
 Você pode visualizar o portfólio diretamente por aqui:
 
-🔗 GitHub Pages: 
+🔗 GitHub Pages: https://isalvesb.github.io/projeto-portfolio/
 
 ---
 
