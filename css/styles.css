@@ -370,3 +370,134 @@ footer a:hover {
   background-clip: text;
   color: transparent;
 }
+
+/* Responsividade para tablets - Telas até 1024px */
+@media (max-width: 1024px) {
+  body {
+    padding: 0 1.5rem;
+  }
+
+  #hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  .hero-image img {
+    width: 340px;
+    height: 340px;
+  }
+
+  .title {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #skills article {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsividade para celulares - Telas até 768px */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav ul {
+    gap: 1rem;
+  }
+
+  /* HERO */
+  #hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 3.2rem;
+  }
+
+  .description {
+    font-size: 1.1rem;
+  }
+
+  .hero-image img {
+    width: 260px;
+    height: 260px;
+  }
+
+  /* GRID DE PROJETOS */
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+  /* SKILLS */
+  #skills article {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* SOBRE */
+  #about p {
+    font-size: 1.1rem;
+  }
+
+  /* CTA */
+  .cta {
+    text-align: center;
+  }
+
+  .cta button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* FOOTER */
+  .footer-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  footer ul {
+    justify-content: center;
+  }
+
+  footer .copyright {
+    text-align: center;
+  }
+}
+
+/* Responsividade para telas muito pequenas - Telas até 480px */
+@media (max-width: 480px) {
+  .title {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .skills-group li {
+    font-size: 1.1rem;
+  }
+}
