@@ -4,5 +4,18 @@
   --gradient: linear-gradient(135deg, #a18cd1 0%, #764ba2 100%);
   --font-color: #262424;
   --background-color: #ffff;
+  --terciary-color: #6c6c6c;
+  --gray: #24262f;
   --font-primary: Poppins, "Poppins Placeholder", sans-serif;
+}
+
+/* dentro de vars.css, abaixo do :root */
+html[data-theme="dark"] {
+  --background-color: #0f1720; /* cor escura */
+  --font-color: #e6eef6; /* texto claro */
+  --primary-color: #7aa2ff; /* ajuste as outras variáveis também */
+  --secondary-color: #9b8cff;
+  --terciary-color: #e0e0e0;
+  --gray: #e0e0e0;
+  --gradient: linear-gradient(135deg, #a18cd1 0%, #764ba2 100%);
 }
