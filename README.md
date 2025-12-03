@@ -1,17 +1,19 @@
-<h1> 🌐 Portfolio - Isa Alves </h1>
+# 💜 Portfólio - Isa Alves 
 
 Este repositório contém o código-fonte do meu portfólio profissional, desenvolvido durante a Aula Técnica da Ada.
 O objetivo do projeto é apresentar meus trabalhos, habilidades e trajetória como desenvolvedora front-end, reunindo tudo em uma interface leve, clara e moderna.
 
 ---
 
-<h2>✨ Tecnologias Utilizadas</h2>
+## ✨ Tecnologias Utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-rounded&logo=html5&logoColor=white) →
  Estruturação da página com elementos semânticos, garantindo organização, acessibilidade e uma base sólida para todo o layout.
 
 
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-rounded&logo=css3&logoColor=white) → Responsável pela estilização completa do portfólio: cores, tipografia, espaçamentos, animações, layout com Flexbox e Grid, além da responsividade.
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-rounded&logo=css&logoColor=white) → Responsável pela estilização completa do portfólio: cores, tipografia, espaçamentos, animações, layout com Flexbox e Grid, além da responsividade.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-rounded&logo=javascript&logoColor=black) → Mudança do tema claro para o tema escuro  
 
 
 ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=flat-rounded&logo=fontawesome&logoColor=white) → Conjunto de ícones utilizado para complementar a interface com elementos visuais modernos, como setas, redes sociais e indicadores.
@@ -22,27 +24,21 @@ O objetivo do projeto é apresentar meus trabalhos, habilidades e trajetória co
 
 ---
 
-<h2>🎨 Funcionalidades</h2>
+## 🎨 Funcionalidades
 
-Seção hero com apresentação
-
-Cards de projetos com links externos
-
-Seção de experiência profissional
-
-Lista de habilidades (Web Design, Frontend, Backend e Soft Skills)
-
-Seção CTA convidando para contato
-
-Footer com links, redes sociais e direitos autorais
-
-Layout totalmente responsivo
+- Seção hero com apresentação
+- Cards de projetos com links externos
+- Seção de experiência profissional
+- Lista de habilidades (Web Design, Frontend, Backend e Soft Skills)
+- Seção CTA convidando para contato
+- Footer com links, redes sociais e direitos autorais
+- Layout totalmente responsivo
 
 ---
 
-<h2>📁 Estrutura do Projeto</h2>
+## 📁 Estrutura do Projeto
 
-<pre style="background:#EDC8FF; color:#ffff; padding:16px; border-radius:8px; font-size:16px;">
+```bash
 projeto-portfolio/
 │
 ├── css/
@@ -54,66 +50,65 @@ projeto-portfolio/
 │
 ├── index.html
 └── README.md
-</pre>
+```
 
 --- 
 
-<h2>🚀 Como Executar o Projeto</h2>
+## 🚀 Como Executar o Projeto
 
-Clone o repositório:
+1. Clone o repositório:
 
-git clone https://github.com/isalvesb/projeto-portfolio
+git clone ```https://github.com/isalvesb/projeto-portfolio```
 
+2. Acesse o diretório:
 
-Acesse o diretório:
+```cd projeto-portfolio```
 
-cd projeto-portfolio
-
-
-Abra o arquivo index.html no navegador:
-
-Abra no Explorer / Finder / ou arraste para o navegador
-
+3. Abra o arquivo `index.html` no seu navegador favorito.
+   
 ---
 
-<h2>🖼️ Prévia do Projeto</h2>
+## 🖼️ Prévia do Projeto
 
 Você pode visualizar o portfólio diretamente por aqui:
 
-🔗 GitHub Pages: https://isalvesb.github.io/projeto-portfolio/
+🔗 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Portfólio-a18cd1?style=flat-rounded&logo=github&logoColor=white)](https://isalvesb.github.io/projeto-portfolio/)
+
 
 ---
 
-<h2>📚 Aprendizados da Aula Técnica (Ada)</h2>
+## 📚 Aprendizados da Aula Técnica (Ada)
 
 Durante o desenvolvimento, trabalhei:
 
-Organização visual com HTML semântico
-
-Estilização avançada com seletores, grid e flexbox
-
-Efeitos de hover e animações suaves
-
-Estrutura modular de CSS
-
-Montagem de componentes visuais (hero, cards, footer, etc.)
-
-Estética de UI/UX com foco em clareza e proporção
+- Organização visual com HTML semântico
+- Estilização avançada com seletores, grid e flexbox
+- Efeitos de hover e animações suaves
+- Estrutura modular de CSS
+- Montagem de componentes visuais (hero, cards, footer, etc.)
+- Estética de UI/UX com foco em clareza e proporção
 
 ---
 
-<h2>👩‍💻 Aula ministrada por:</h2>
+## 🌙 Update
+Adição do dark mode como desafio de lógica de programação com Javascript. Confira o resultado pela página, mas deixo aqui um print da tela:  
+
+<img width="700" height="594" alt="projeto portfolio em dark mode" src="https://github.com/user-attachments/assets/eedd7e6f-1bef-4094-9458-2ffb9344e83a" />
+
+---
+
+## 👩‍💻 Aula ministrada por:
 <table>
   <tr>
     <td align="center">
       <a href="https://github.com/leticiavargas">
-        <img src="https://github.com/leticiavargas.png" width="120px" style="border-radius: 50%;" alt="Foto da Letícia Vargas"/>
+        <img src="https://github.com/leticiavargas.png" width="120px" style="border-radius: 50%;" alt="Foto de Letícia Vargas"/>
         </a>
         <br>
         <b>Letícia Vargas</b>
       <br><br>
       <a href="https://github.com/leticiavargas">
-        <img src="https://img.shields.io/badge/GitHub-Letícia_Vargas-181717?style=flat-rounded&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/GitHub-Letícia_Vargas-red?style=flat-rounded&logo=github&logoColor=white" />
       </a>
     </td>
   </tr>
@@ -121,7 +116,7 @@ Estética de UI/UX com foco em clareza e proporção
 
 ---
 
-<h2>📬 Contato</h2>
+## 📬 Contato
 <table>
   <tr>
     <td align="center">
