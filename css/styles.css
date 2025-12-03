@@ -477,6 +477,23 @@ footer a:hover {
   }
 
   /* FOOTER */
+  footer {
+    grid-template-areas:
+      "links"
+      "social-medias"
+      "cta"
+      "copyright";
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+
+  footer .links,
+  footer .social-medias,
+  footer .cta,
+  footer .copyright {
+    justify-self: center;
+  }
+
   .footer-content {
     flex-direction: column;
     gap: 1.5rem;
@@ -487,7 +504,7 @@ footer a:hover {
   }
 
   footer .copyright {
-    text-align: center;
+    margin-top: 0;
   }
 }
 
