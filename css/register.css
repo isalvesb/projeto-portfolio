@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 2.5rem;
+  height: 100%;
+  min-height: 110vh;
+  border: 0.063rem solid var(--gradient);
+}
+
+.form-curriculo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 100vh;
+  margin: 10rem auto;
+}
+
+.border-gradient {
+  border: 2px solid transparent;
+  border-radius: 1rem;
+
+  background:
+    linear-gradient(var(--background-color), var(--background-color))
+      padding-box,
+    var(--gradient) border-box;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem 3rem;
+}
+
+label {
+  font-family: var(--font-primary);
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding-bottom: 0.3rem;
+  margin-top: 1rem;
+}
+
+input {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--primary-color);
+  color: var(--terciary-color);
+  background-color: var(--background-color);
+}
+
+::placeholder {
+  padding: auto;
+}
+
+textarea {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--primary-color);
+  background-color: var(--background-color);
+}
+
+.cta-submit {
+  display: flex;
+  justify-content: center;
+}

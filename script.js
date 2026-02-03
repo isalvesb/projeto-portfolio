@@ -31,3 +31,32 @@ btn.addEventListener('click', () => {
     icon.classList.toggle('fa-sun');
 });
 
+// JS para a página Register 
+
+const form = document.getElementById('curriculo-form');
+// console.log(form);
+
+form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+    // console.log(formData);
+    const dados = Object.fromEntries(formData);
+    //console.log(dados);
+
+    const resposta = fetch('https://69825d839c3efeb892a23e87.mockapi.io/api/v1', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(dados)
+    });
+
+    if ((resposta).ok) {
+        alert('Formulário enviado com sucesso!');
+        form.reset();
+    } else {
+        alert('Erro ao enviar o formulário.', console.error(form)
+        );
+    }
+})

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Chamada CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="stylesheet" href="css/vars.css" />
+
+    <!-- Chamada FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Chamada Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Chamada Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💜</text></svg>"
+    />
+
+    <title>Isa Alves Portfólio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="name">Isa<span class="emphasis dot">.</span></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+
+      <div class="btn-dark-mode" id="btn-toggle">
+        <i class="fa-solid fa-moon"></i>
+      </div>
+    </header>
+
+    <main>
+      <!-- Geral -->
+      <section id="hero">
+        <article>
+          <p class="greeting">Hi, I'm Isa</p>
+          <h1 class="title">
+            <span class="principal">Front</span>end<br />Developer
+          </h1>
+          <p class="description">
+            Front-End Developer in São Paulo. I transform ideas into creative,
+            lightweight, and functional interfaces.
+          </p>
+        </article>
+
+        <div class="hero-image gradient-border">
+          <img src="images/foto-perfil.jpg" alt="Avatar" />
+        </div>
+      </section>
+
+      <section class="form-curriculo border-gradient">
+        <form class="container-form" method="post" id="curriculo-form">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+
+          <label for="story">Tell us your story:</label>
+          <textarea name="story" id="story"></textarea>
+
+          <label for="skills">Skills:</label>
+          <textarea name="skills" id="skills"></textarea>
+
+          <label for="social-medias">Social Medias:</label>
+          <input
+            type="url"
+            id="social-medias"
+            name="social-medias"
+            placeholder="Enter your social media URL"
+          />
+
+          <div class="cta-submit">
+            <button type="submit" class="primary">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Medias -->
+      <div id="contact" class="social-medias">
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/isalvesb/"
+              rel="noopener"
+              title="Linkedin"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/isalvesb"
+              rel="noopener"
+              title="GitHub"
+              target="_blank"
+              ><i class="fa-brands fa-github-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:alvesisamara@gmail.com" title="Email"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Question -->
+      <div class="cta">
+        <p>Interested in working together<span class="emphasis">?</span></p>
+        <button type="button" class="primary">Get In Touch</button>
+        <button type="button" class="outline">Browse Projects</button>
+      </div>
+
+      <div class="copyright">&copy; 2025 Isa Alves. All Rights Reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
