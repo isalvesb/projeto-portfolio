@@ -21,9 +21,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50vw;
-  height: 100vh;
-  margin: 10rem auto;
+  width: 100%;
+  max-width: 600px;
+  margin: 6rem auto;
+  padding: 0 1rem;
 }
 
 .border-gradient {
@@ -41,7 +42,7 @@ body {
   flex-direction: column;
   width: 100%;
   max-width: 500px;
-  padding: 2rem 3rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
 }
 
 label {
@@ -74,4 +75,36 @@ textarea {
 .cta-submit {
   display: flex;
   justify-content: center;
+}
+
+/* Responsividade para Tablets e Celulares */
+@media (max-width: 768px) {
+  body {
+    padding: 0 1.25rem;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  .form-curriculo {
+    margin: 4rem auto;
+  }
+}
+
+/* Responsividade para Celulares pequenos */
+@media (max-width: 480px) {
+  .container-form {
+    padding: 1.5rem 1.25rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.95rem;
+  }
+}
+
+/* Evitar form "alto demais" para celulares */
+.form-curriculo {
+  min-height: calc(100vh - 8rem);
 }
