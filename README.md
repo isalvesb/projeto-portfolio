@@ -95,6 +95,12 @@ Adição do dark mode como desafio de lógica de programação com Javascript. C
 
 <img width="700" height="594" alt="projeto portfolio em dark mode" src="https://github.com/user-attachments/assets/eedd7e6f-1bef-4094-9458-2ffb9344e83a" />
 
+ ### 🔗 Update 2
+ Adição de formulário utilizando o `https://mockapi.io/` para receber os dados do usuário:
+
+ <img width="700" height="594" alt="image" src="https://github.com/user-attachments/assets/eaa80f32-d499-4ecd-a3e1-ab2e7b02f6d7" />
+
+
 ---
 
 ## 👩‍💻 Aula ministrada por:
