@@ -42,9 +42,9 @@ O objetivo do projeto é apresentar meus trabalhos, habilidades e trajetória co
 projeto-portfolio/
 │
 ├── css/
-│     ├── register.css
-│     ├── styles.css
-│     └── vars.css
+│   ├── register.css
+│   ├── styles.css
+│   └── vars.css
 │
 ├── images/
 │   └── (imagens dos projetos e foto de perfil)
