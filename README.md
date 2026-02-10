@@ -33,6 +33,8 @@ O objetivo do projeto é apresentar meus trabalhos, habilidades e trajetória co
 - Seção CTA convidando para contato
 - Footer com links, redes sociais e direitos autorais
 - Layout totalmente responsivo
+- Dark Mode com alternância de tema para melhor conforto visual em diferentes ambientes
+- Formulário de cadastro funcional integrado ao MockAPI para envio e simulação de armazenamento de dados do usuário
 
 ---
 
