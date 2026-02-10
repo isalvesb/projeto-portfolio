@@ -43,7 +43,7 @@ projeto-portfolio/
 │
 ├── css/
 │     ├── register.css
-|     ├── styles.css
+│     ├── styles.css
 │     └── vars.css
 │
 ├── images/
